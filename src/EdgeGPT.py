@@ -106,7 +106,7 @@ class Conversation:
         }
         # POST request to get token
         # Create cookies
-        if os.environ.get("BING_U") is None:
+        if os.environt.get("BING_U") is None:
             home = os.path.expanduser("~")
             # Check if token exists
             token_path = f"{home}/.config/bing_token"
